@@ -2,8 +2,6 @@ name: quant data monitor html update
 
 on:
   workflow_dispatch:  # 手动触发
-  schedule:
-    - cron: '*/15 0,1,2,3,5,6,7 * * *'
 
 jobs:
   # 任务1：交易时间条件检查
